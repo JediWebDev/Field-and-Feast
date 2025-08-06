@@ -154,22 +154,29 @@ section#offerings > div > article ul {
   list-style: disc;
 }
 
-/* Gallery Section */
+/* Gallery Section (mobile-first) */
 section#gallery > div {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
 section#gallery > div > figure {
-  background: var(--soft-white);
+  background: #fff;
+  border: 1px solid var(--linen);
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+section#gallery > div > figure > img {
+  width: 100%;
+  display: block;
 }
 section#gallery > div > figure > figcaption {
-  font-style: italic;
-  padding: 0.5rem;
+  padding: 0.75rem 0.5rem;
   text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--dark-charcoal);
 }
 section#gallery > a {
   display: block;
