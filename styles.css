@@ -182,3 +182,15 @@ section#gallery > a {
   font-weight: bold;
   margin-top: 1rem;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  background: var(--midnight-blue);
+  color: var(--soft-white);
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+footer a {
+  color: var(--champagne-gold);
+}
