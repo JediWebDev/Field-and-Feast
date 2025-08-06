@@ -57,4 +57,12 @@
       --dark-charcoal: #2B2B2B;
       --soft-white: #FAF9F6;
     }
-
+    /* GLOBAL STYLES (mobile first/small) */
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'Playfair Display', serif;
+      background: var(--linen);
+      color: var(--dark-charcoal);
+      line-height: 1.5;
+      padding: 1rem;
+    }
