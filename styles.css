@@ -110,3 +110,25 @@ nav {
 nav a {
   color: inherit;
 }
+
+/* Main Content */
+main {
+  margin: 1.5rem 0;
+}
+section {
+  margin-bottom: 2rem;
+}
+h1, h2, h3 {
+  color: var(--midnight-blue);
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+section#about p {
+  margin-top: 0.5rem;
+}
