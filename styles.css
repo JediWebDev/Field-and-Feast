@@ -201,3 +201,44 @@ footer {
 footer a {
   color: var(--champagne-gold);
 }
+
+/* MEDIA QUERY (medium) */
+@media (min-width: 600px) {
+  section#offerings > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section#offerings > div > article:nth-of-type(3) {
+    grid-column: 1 / -1;
+  }
+  section#gallery > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MEDIA QUERY (large) */
+@media (min-width: 900px) {
+  body { padding: 2rem 4rem; }
+  section#offerings > div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  section#gallery > div {
+    display: flex;
+    gap: 1rem;
+  }
+  section#gallery > div > figure {
+    flex: 1;
+  }
+}
+
+/* MEDIA QUERY (xl) */
+@media (min-width: 1200px) {
+  header { padding: 2rem 0; }
+  header > h1 { font-size: 2.5rem; }
+  section#gallery > div {
+    display: flex;
+    gap: 1rem;
+  }
+  section#gallery > div > figure {
+    flex: 1;
+  }
+}
