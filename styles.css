@@ -153,3 +153,32 @@ section#offerings > div > article ul {
   padding-left: 1.25rem;
   list-style: disc;
 }
+
+/* Gallery Section */
+section#gallery > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+section#gallery > div > figure {
+  background: var(--soft-white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+section#gallery > div > figure > figcaption {
+  font-style: italic;
+  padding: 0.5rem;
+  text-align: center;
+}
+section#gallery > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: var(--olive-green);
+  color: var(--soft-white);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
